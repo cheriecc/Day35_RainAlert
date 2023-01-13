@@ -4,12 +4,12 @@ from twilio.rest import Client
 
 MY_LAT = 51.48    # 23.15
 MY_LON = -3.18    # 113.33
-API_KEY = os.environ.get("OWM_API_KEY") # "e9cfebd3ce453f2711ceafb84e7aa8c2"
+API_KEY = os.environ.get("OWM_API_KEY")
 EXCLUDE = "current,minutely,daily"
 OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
 OWM_ENDPOINT1 = "https://api.openweathermap.org/data/3.0/onecall"
 account_sid = "AC149964b7b04f2cd0bc04a86a5e262509"
-auth_token = os.environ.get("AUTH_TOKEN") # "69e063af4fdabccfe511482cb7b6d78a"
+auth_token = os.environ.get("AUTH_TOKEN")
 
 account_sid1 = "SKe84293bb592bd4f67fc3769489fb0372"
 secret = "ose1j5Stljws6Gq9xvawJk25t7QSIvQc"
