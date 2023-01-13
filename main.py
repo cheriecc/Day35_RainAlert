@@ -11,10 +11,6 @@ OWM_ENDPOINT1 = "https://api.openweathermap.org/data/3.0/onecall"
 account_sid = "AC149964b7b04f2cd0bc04a86a5e262509"
 auth_token = os.environ.get("AUTH_TOKEN")
 
-account_sid1 = "SKe84293bb592bd4f67fc3769489fb0372"
-secret = "ose1j5Stljws6Gq9xvawJk25t7QSIvQc"
-auth_token1 = "48d1b2ca97fcb501dfed4b342efb45b2"
-
 parameter = {
     "lat": MY_LAT,
     "lon": MY_LON,
